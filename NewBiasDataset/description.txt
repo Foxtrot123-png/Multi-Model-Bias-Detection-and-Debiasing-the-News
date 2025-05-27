@@ -1,0 +1,21 @@
+Contents
+unique_id: Unique identifier for each news item. Each unique_id matches an image for the same article.
+outlet: The publisher of the article.
+headline: The headline of the article.
+article_text: The full content of the news article.
+image_description: Description of the paired image.
+image: The file path of the associated image.
+date_published: The date the article was published.
+source_url: The original URL of the article.
+canonical_link: The canonical URL of the article.
+new_categories: Categories assigned to the article.
+news_categories_confidence_scores: Confidence scores for each category.
+Annotation Labels
+text_label: Indicates the likelihood of the article being disinformation:
+
+Likely: Likely to be disinformation.
+Unlikely: Unlikely to be disinformation.
+multimodal_label: Indicates the likelihood of disinformation from the combination of the text snippet and image content:
+
+Likely: Likely to be disinformation.
+Unlikely: Unlikely to be disinformation.
